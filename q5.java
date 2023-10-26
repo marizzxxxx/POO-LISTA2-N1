@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class q4 {
+public class q5 {
     public static void main(String[] args) {
 
         try (Scanner scanner = new Scanner(System.in)) {
@@ -16,10 +16,11 @@ public class q4 {
             int anos = scanner.nextInt();
             
             int idade;
-            idade = d /*nao terminei*/
 
-            System.out.print("Idade expressa em dias: ");
-            System.out.print(valor);
+            var Idade = anos * 365 + meses * 30 + dias;
+
+            System.out.println("Idade expressa em dias: " + Idade);
+    
    }
         }
     }
